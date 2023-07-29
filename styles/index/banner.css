@@ -1,0 +1,15 @@
+.banner{
+    width: 100vw;
+    height: 45vw;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(180deg, rgba(0, 0, 0, 0.00) 41.15%, rgba(0, 0, 0, 0.80) 100%), url("../../assets/banner-img.jpg"), lightgray 50% / cover no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    padding: 2rem 1rem;
+}
+
+.banner-info, .banner-title{
+    color: #ffffff;
+}

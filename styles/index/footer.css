@@ -1,0 +1,51 @@
+.footer-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-title *,.footer-title{
+    font-size: 2.5rem;
+    margin-bottom: .3rem;
+}
+
+.link-footer{
+    text-decoration: none;
+    color:inherit;
+}
+ 
+.info-list{
+    list-style-type: none;
+    padding: 0;
+}
+
+.info-list *{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.footer{
+    background-color: #EAF2FD;
+}
+
+.form-title{
+    margin-bottom: -0.8rem;
+    font-size: 1.3rem;
+}
+
+.form{
+    padding: 1rem;
+}
+
+.form-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.fot-btn{
+    margin-top: 1rem;
+}
+
+.dev-info-p{
+    text-align: center;
+}

@@ -1,168 +1,193 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/normalize.css">
-    <link rel="stylesheet" href="./styles/index/header.css">
-    <link rel="stylesheet" href="./styles/index/banner.css">
-    <link rel="stylesheet" href="./styles/index/product-gallery.css">
-    <link rel="stylesheet" href="./styles/index/footer.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/components.css" />
+    <link rel="stylesheet" href="./styles/index/header.css" />
+    <link rel="stylesheet" href="./styles/index/banner.css" />
+    <link rel="stylesheet" href="./styles/index/product-gallery.css" />
+    <link rel="stylesheet" href="./styles/index/footer.css" />
     <title>AluraGeek</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header">
-        <div class="header-div">
-            <div class="div-logo">
-                <img src="./assets/alura-geek-logo.svg" alt="AluraGeek logo">
-                <h1><span class="blue">Aluras</span>Geek</h1>
-            </div>
-            <div class="div-search-bar"><input type="text" class="search-bar" placeholder="¿Que desea buscar?"></div>
-        </div>
-        <a href="" class="btn">Login</a>
+      <div class="div-logo">
+        <img
+          src="./assets/alura-geek-logo.svg"
+          alt="AluraGeek logo"
+          class="header-logo"
+        />
+        <h1 class="header-title"><span class="blue">Aluras</span>Geek</h1>
+      </div>
+      <div class="div-search-bar">
+        <input
+          type="text"
+          class="search-bar"
+          placeholder="¿Que desea buscar?"
+        />
+      </div>
+      <a href="" class="btn link">Login</a>
     </header>
     <main>
-        <section class="banner">
-            <div class="banner-div">
-                <h2 class="banner-title"></h2>
-                <p class="banner-info"></p>
-                <button class="btn blue-btn"></button>
+      <section class="banner">
+        <div class="banner-div">
+          <h2 class="banner-title">Febrero Promocional</h2>
+          <p class="banner-info">Productos selecionados con 33% de descuento</p>
+          <a href="#" class="btn btn-blue link">Ver consola</a>
+        </div>
+      </section>
+      <section class="product-gallery">
+        <div class="product-gallery-div">
+          <div class="gallery-title-div">
+            <h3 class="gallery-title">Star Wars</h3>
+            <a href="" class="link">Ver todo</a>
+          </div>
+          <div class="card-container">
+            <div class="card">
+              <div class="img-div"></div>
+              <p class="product-name">Producto XYZ</p>
+              <p class="product-value">$60,00</p>
+              <a href="" class="link">Ver producto</a>
             </div>
-        </section>
-        <section class="product-gallery">
-            <div class="product-gallery-div">
-                <div class="gallery-title-div">
-                    <h3 class="gallery-title">Star Wars</h3>
-                    <a href="" class="link"></a>
-                </div>
-                <div class="card-container">
-                    <div class="card">
-                        <div class="img-div"></div>
-                        <p class="product-name">Producto XYZ</p>
-                        <p class="product-value">$60,00</p>
-                        <a href="" class="link">Ver producto</a>
-                    </div>
-                    <div class="card">
-                        <div class="img-div"></div>
-                        <p class="product-name">Producto XYZ</p>
-                        <p class="product-value">$60,00</p>
-                        <a href="" class="link">Ver producto</a>
-                    </div>
-                    <div class="card">
-                        <div class="img-div"></div>
-                        <p class="product-name">Producto XYZ</p>
-                        <p class="product-value">$60,00</p>
-                        <a href="" class="link">Ver producto</a>
-                    </div>
-                    <div class="card">
-                        <div class="img-div"></div>
-                        <p class="product-name">Producto XYZ</p>
-                        <p class="product-value">$60,00</p>
-                        <a href="" class="link">Ver producto</a>
-                    </div>
-                </div>
+            <div class="card">
+              <div class="img-div"></div>
+              <p class="product-name">Producto XYZ</p>
+              <p class="product-value">$60,00</p>
+              <a href="" class="link">Ver producto</a>
             </div>
-            <div class="product-gallery-div">
-                <div class="gallery-title-div">
-                    <h3 class="gallery-title">Consolas</h3>
-                    <a href="" class="link"></a>
-                </div>
-                <div class="card-container">
-                    <div class="card">
-                        <div class="img-div"></div>
-                        <p class="product-name">Producto XYZ</p>
-                        <p class="product-value">$60,00</p>
-                        <a href="" class="link">Ver producto</a>
-                    </div>
-                    <div class="card">
-                        <div class="img-div"></div>
-                        <p class="product-name">Producto XYZ</p>
-                        <p class="product-value">$60,00</p>
-                        <a href="" class="link">Ver producto</a>
-                    </div>
-                    <div class="card">
-                        <div class="img-div"></div>
-                        <p class="product-name">Producto XYZ</p>
-                        <p class="product-value">$60,00</p>
-                        <a href="" class="link">Ver producto</a>
-                    </div>
-                    <div class="card">
-                        <div class="img-div"></div>
-                        <p class="product-name">Producto XYZ</p>
-                        <p class="product-value">$60,00</p>
-                        <a href="" class="link">Ver producto</a>
-                    </div>
-                </div>
+            <div class="card">
+              <div class="img-div"></div>
+              <p class="product-name">Producto XYZ</p>
+              <p class="product-value">$60,00</p>
+              <a href="" class="link">Ver producto</a>
             </div>
-            <div class="product-gallery-div">
-                <div class="gallery-title-div">
-                    <h3 class="gallery-title">Diversos</h3>
-                    <a href="" class="link"></a>
-                </div>
-                <div class="card-container">
-                    <div class="card">
-                        <div class="img-div"></div>
-                        <p class="product-name">Producto XYZ</p>
-                        <p class="product-value">$60,00</p>
-                        <a href="" class="link">Ver producto</a>
-                    </div>
-                    <div class="card">
-                        <div class="img-div"></div>
-                        <p class="product-name">Producto XYZ</p>
-                        <p class="product-value">$60,00</p>
-                        <a href="" class="link">Ver producto</a>
-                    </div>
-                    <div class="card">
-                        <div class="img-div"></div>
-                        <p class="product-name">Producto XYZ</p>
-                        <p class="product-value">$60,00</p>
-                        <a href="" class="link">Ver producto</a>
-                    </div>
-                    <div class="card">
-                        <div class="img-div"></div>
-                        <p class="product-name">Producto XYZ</p>
-                        <p class="product-value">$60,00</p>
-                        <a href="" class="link">Ver producto</a>
-                    </div>
-                </div>
+            <div class="card">
+              <div class="img-div"></div>
+              <p class="product-name">Producto XYZ</p>
+              <p class="product-value">$60,00</p>
+              <a href="" class="link">Ver producto</a>
             </div>
-        </section>
+          </div>
+        </div>
+        <div class="product-gallery-div">
+          <div class="gallery-title-div">
+            <h3 class="gallery-title">Consolas</h3>
+            <a href="" class="link">Ver todo</a>
+          </div>
+          <div class="card-container">
+            <div class="card">
+              <div class="img-div"></div>
+              <p class="product-name">Producto XYZ</p>
+              <p class="product-value">$60,00</p>
+              <a href="" class="link">Ver producto</a>
+            </div>
+            <div class="card">
+              <div class="img-div"></div>
+              <p class="product-name">Producto XYZ</p>
+              <p class="product-value">$60,00</p>
+              <a href="" class="link">Ver producto</a>
+            </div>
+            <div class="card">
+              <div class="img-div"></div>
+              <p class="product-name">Producto XYZ</p>
+              <p class="product-value">$60,00</p>
+              <a href="" class="link">Ver producto</a>
+            </div>
+            <div class="card">
+              <div class="img-div"></div>
+              <p class="product-name">Producto XYZ</p>
+              <p class="product-value">$60,00</p>
+              <a href="" class="link">Ver producto</a>
+            </div>
+          </div>
+        </div>
+        <div class="product-gallery-div">
+          <div class="gallery-title-div">
+            <h3 class="gallery-title">Diversos</h3>
+            <a href="" class="link">Ver todo</a>
+          </div>
+          <div class="card-container">
+            <div class="card">
+              <div class="img-div"></div>
+              <p class="product-name">Producto XYZ</p>
+              <p class="product-value">$60,00</p>
+              <a href="" class="link">Ver producto</a>
+            </div>
+            <div class="card">
+              <div class="img-div"></div>
+              <p class="product-name">Producto XYZ</p>
+              <p class="product-value">$60,00</p>
+              <a href="" class="link">Ver producto</a>
+            </div>
+            <div class="card">
+              <div class="img-div"></div>
+              <p class="product-name">Producto XYZ</p>
+              <p class="product-value">$60,00</p>
+              <a href="" class="link">Ver producto</a>
+            </div>
+            <div class="card">
+              <div class="img-div"></div>
+              <p class="product-name">Producto XYZ</p>
+              <p class="product-value">$60,00</p>
+              <a href="" class="link">Ver producto</a>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
-        <section class="footer">
-            <div class="footer-div">
-                <img src="./assets/alura-geek-logo.svg" alt="AluraGeek logo" class="footer-logo">
-                <h2 class="footer-title"><span class="blue">Alura</span>Geek</h2>
+      <section class="footer">
+        <div class="footer-div ">
+          <img
+            src="./assets/alura-geek-logo.svg"
+            alt="AluraGeek logo"
+            class="footer-logo"
+          />
+          <h2 class="footer-title"><span class="blue">Alura</span>Geek</h2>
+        </div>
+        <div class="footer-div">
+          <ul class="info-list">
+            <li><a href="#" class="link-footer">Quienes somos</a></li>
+            <li><a href="#" class="link-footer">Política de privacidad</a></li>
+            <li><a href="#" class="link-footer">Programa de fidelidad</a></li>
+            <li><a href="#" class="link-footer">Nuestras tiendas</a></li>
+            <li><a href="#" class="link-footer">Quiero ser franquiciado</a></li>
+            <li><a href="#" class="link-footer">Anúncie aquí</a></li>
+          </ul>
+        </div>
+        <div class="footer-div">
+          <form class="form">
+            <h2 class="form-title">Hable con nosotros</h2>
+            <div class="form-div">
+              <input
+                type="text"
+                name="name"
+                class="input"
+                placeholder="Nombre"
+              />
+              <label for="name" class="label">Nombre</label>
             </div>
-            <div class="footer-div">
-                <ul class="info-list">
-                    <li><a href="#" class="link">Quienes somos</a></li>
-                    <li><a href="#" class="link">Política de privacidad</a></li>
-                    <li><a href="#" class="link">Programa de fidelidad</a></li>
-                    <li><a href="#" class="link">Nuestras tiendas</a></li>
-                    <li><a href="#" class="link">Quiero ser franquiciado</a></li>
-                    <li><a href="#" class="link">Anúncie aquí</a></li>
-                </ul>
+            <div class="form-div">
+              <textarea
+                cols="30"
+                rows="3"
+                type="text"
+                name="text"
+                class="input"
+                placeholder="Escribe tu mensaje"
+              ></textarea>
+              <label for="text" class="label">Escribe tu mensaje</label>
             </div>
-            <div class="footer-div">
-                <form class="form">
-                    <h2 class="form-title">Hable con nosotros</h2>
-                    <div class="form-div">
-                        <input type="text" name="name" class="input" placeholder="Nombre">
-                        <label for="name" class="label"></label>
-                    </div>
-                    <div class="form-div">
-                        <textarea type="text" name="text" class="input" placeholder="Escribe tu mensaje"></textarea>
-                        <label for="text" class="label"></label>
-                    </div>
-                    <button type="submit">Enviar mensaje</button>
-                </form>
-            </div>
-        </section>
-        <section class="dev-info">
-            <p class="dev-info-p">Desarrollado por Cristian</p>
-            <p class="dev-info-p">2023</p>
-        </section>
+            <button type="submit" class="btn btn-blue fot-btn">Enviar mensaje</button>
+          </form>
+        </div>
+      </section>
+      <section class="dev-info">
+        <p class="dev-info-p">Desarrollado por Cristian</p>
+        <p class="dev-info-p">2023</p>
+      </section>
     </footer>
-</body>
+  </body>
 </html>

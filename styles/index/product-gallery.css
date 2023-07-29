@@ -1,0 +1,40 @@
+.product-gallery{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.gallery-title-div, .card-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gallery-title-div{
+    margin-top: 1rem;
+}
+
+.card-container{
+    flex-wrap: wrap;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    min-width: 47%;
+    margin-bottom: 1.25rem;
+}
+
+.img-div{
+    width: 100%;
+    height: 184px;
+    background: url("../../assets/product-image.jpg") center / cover no-repeat,lightgray 50%;
+}
+
+.card *:not(.img-div){
+    margin: 5px;
+}
+
+.gallery-title{
+    font-size: 1.5rem;
+}
