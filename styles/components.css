@@ -38,7 +38,6 @@ h1, h1 *, h2, h2 *, h3{
     resize: none;
     padding:  2.1rem .6rem .6rem;
     border-radius: 5px;
-    order: 1;
     border-bottom: 2px solid #c0c0c0;
 }
 
@@ -63,3 +62,4 @@ h1, h1 *, h2, h2 *, h3{
     font-size: 12px;
     transition: all .3s;
 }
+

@@ -12,4 +12,21 @@
 
 .banner-info, .banner-title{
     color: #ffffff;
+    
+}
+
+.banner-div:last-child{
+
+}
+
+@media screen and (min-width:768px) {
+    .banner-title{
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .banner-info{
+        font-size: 1.5rem;
+        margin: .5rem 0 2rem 0;
+    }
 }

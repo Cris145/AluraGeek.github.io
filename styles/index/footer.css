@@ -4,9 +4,14 @@
     justify-content: center;
 }
 
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+
 .footer-title *,.footer-title{
-    font-size: 2.5rem;
-    margin-bottom: .3rem;
+    font-size: 2rem;
+    margin: 0;
 }
 
 .link-footer{
@@ -26,15 +31,18 @@
 
 .footer{
     background-color: #EAF2FD;
+    display: flex;
+    flex-direction: column;
 }
 
 .form-title{
-    margin-bottom: -0.8rem;
+    margin: 0;
     font-size: 1.3rem;
 }
 
 .form{
     padding: 1rem;
+    width: 100%;
 }
 
 .form-div{
@@ -42,6 +50,7 @@
     flex-direction: column;
     position: relative;
     margin-top: 1rem;
+    
 }
 
 .fot-btn{
@@ -50,4 +59,59 @@
 
 .dev-info-p{
     text-align: center;
+}
+
+@media screen and (min-width:768px) and (max-width:1023px)  {
+    .footer{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding-bottom: 3.5rem ;
+    }
+
+    .footer-div:first-of-type{
+        position: absolute;
+        left: 2rem;
+        display: flex;
+    }
+
+    .footer-logo{
+        position: relative;
+        top:11px;
+    }
+
+    .footer-div:nth-child(2){
+        position: relative;
+        top: 4rem;
+        left: 2rem; 
+    }
+
+    .info-list li{
+        text-align: inherit;
+        margin-bottom: 2rem;
+    }
+
+    .footer-div:nth-child(3){
+        width: 60%;
+        padding: 1rem;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .footer{
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 4rem 0 4rem 0;
+    }
+
+    .footer-div{
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .info-list *{
+        text-align: inherit;
+        margin-bottom: 2rem;
+    }
 }
