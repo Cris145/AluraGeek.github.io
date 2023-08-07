@@ -1,0 +1,26 @@
+.div-search-bar{
+    margin-right: -5rem;
+}
+
+.div-logo{
+    margin-left: -4rem;
+}
+
+.delete-icon, .edit-icon{
+    width: 24px;
+    height: 24px; 
+    margin: 8px 8px auto 1rem;
+}
+
+.delete-icon{
+    background: url("../../images/delete-icon.svg") no-repeat;
+}
+
+.edit-icon{
+    background: url("../../images/edit-icon.svg") no-repeat;
+}
+
+.img-div{
+    display: flex;
+    justify-content: end;
+}

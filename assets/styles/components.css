@@ -38,7 +38,7 @@ h1, h1 *, h2, h2 *, h3{
     resize: none;
     padding:  2.1rem .6rem .6rem;
     border-radius: 5px;
-    border-bottom: 2px solid #c0c0c0;
+    border-bottom: 1px solid #c0c0c0;
 }
 
 .input::placeholder{
@@ -53,6 +53,7 @@ h1, h1 *, h2, h2 *, h3{
     transition: all .3s;
     pointer-events: none;
     font-weight: 400px;
+    color:#A2A2A2
 }
 
 .input:focus + .label,
@@ -63,3 +64,6 @@ h1, h1 *, h2, h2 *, h3{
     transition: all .3s;
 }
 
+.login-input{
+    font-size: 1rem;
+}
