@@ -34,16 +34,21 @@
     width: 24px;
     height: 24px;
     order: 1;
+    
 }
 
 @media screen and (min-width:768px) {
+    .div-logo{
+        margin-left: -11.5vw;
+    }
+    
     .div-search-bar{
         background-image: none;
     }
 
     .header-btn{
         order: 1;
-        margin-right: -8rem;
+        margin-right: -11vw;
     }
 
     .search-bar{
@@ -52,12 +57,13 @@
         right: 22vw;
         top: -0.3rem;
         background: url("../images/search-icon.svg") no-repeat ;
-        background-position: 13rem;
+        background-position: 95%;
         background-color: #f0f0f0;
         padding: .5rem 1rem;
         outline: none;
         border: none;
         border-radius: 50px;
+        width: 19rem;
     }
 
     @media screen and (min-width: 1024px){
@@ -67,7 +73,7 @@
         }
 
         .div-logo{
-            margin-left: -5rem;
+            margin-left: -3.75vw;
         }
 
         .header-title *, .header-title{

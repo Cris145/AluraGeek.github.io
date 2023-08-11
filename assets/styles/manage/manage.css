@@ -1,9 +1,9 @@
 .div-search-bar{
-    margin-right: -5rem;
+    margin-right: -25vw;
 }
 
 .div-logo{
-    margin-left: -4rem;
+    margin-left: -25vw;
 }
 
 .delete-icon, .edit-icon{
@@ -23,4 +23,17 @@
 .img-div{
     display: flex;
     justify-content: end;
+}
+
+
+@media screen and (min-width:768px) {
+    .search-bar{
+        position: relative;
+        right: 43vw;
+        top: -0.3rem;
+    }
+
+    .div-logo{
+        margin-left: -34.5vw;
+    }
 }

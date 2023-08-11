@@ -36,7 +36,7 @@
     padding: 1rem 0;
 }
 
-.form-title{
+.footer-form-title{
     margin: 0;
     font-size: 1.3rem;
 }
@@ -51,7 +51,6 @@
     flex-direction: column;
     position: relative;
     margin-top: 1rem;
-    
 }
 
 .fot-btn{
