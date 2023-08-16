@@ -10,30 +10,39 @@
     width: 24px;
     height: 24px; 
     margin: 8px 8px auto 1rem;
+    position: absolute;
+    left: 80px;
+}
+
+.card{
+    position: relative;;
 }
 
 .delete-icon{
     background: url("../../images/delete-icon.svg") no-repeat;
+    
 }
 
 .edit-icon{
     background: url("../../images/edit-icon.svg") no-repeat;
-}
-
-.img-div{
-    display: flex;
-    justify-content: end;
+    left: 115px;
 }
 
 
 @media screen and (min-width:768px) {
     .search-bar{
         position: relative;
-        right: 43vw;
+        right: 63vw;
         top: -0.3rem;
     }
-
+    
     .div-logo{
-        margin-left: -34.5vw;
+        margin-left: -31vw
+    }
+}
+
+@media screen and (min-width:1024px){
+    .div-logo{
+        margin-left: -25vw
     }
 }

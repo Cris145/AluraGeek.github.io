@@ -1,0 +1,155 @@
+{
+    "usuarios": [
+        {
+            "email": "cr337766@gmail.com",
+            "contraseña": "123",
+            "id": "0b57b9ea-e822-4821-bc42-7f6fcfcb3cad"
+        }
+    ],
+    "categorias":[
+        {
+            "nombre":"Star Wars",
+            "id": "",
+            "productos":[
+                {
+                    "nombre": "Producto ABC",
+                    "precio": "$60,00",
+                    "url": "https://s3-alpha-sig.figma.com/img/7288/617c/839c11fc3105027e126215f3647fa5b0?Expires=1693180800&Signature=RtZcW89Rstb9WLeBv5AGG0jkt2BcMQiGZUssl6gYWpdwOoLhfkJ1HYxV66ZNocKijdODqj-dBZdpoH3rjrNilAhZ61PBmS~CZ7FB1NdhuPkTtIkA47ZmBoBB2-jngTBUcuPGBLl3rHuGPBO~8EWq-rxfg9buYBRRQcbAyOYHvSQW9r7NlVnkmFQec0MJ-0A0yarCy4ceA61OjCaO07u-D24ul8S~QAPNtvKgDFmeizbcj62pRrwMjBcOofgbEFeivB88aI17ilvJ0YcPqyO7Ppr5N8FOE5C0F1AS7T1gizcMitE3-9qr7el1wNw1mDZiE3FotrGuehkeszN4UMyrrw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+                    "categoria": "Star Wars",
+                    "id": ""
+                },
+                {
+                    "nombre": "Producto DEF",
+                    "precio": "$60,00",
+                    "url": "https://s3-alpha-sig.figma.com/img/8238/111b/31785f700a9fb63c75604c23eb944720?Expires=1693180800&Signature=MXZ8z~~RWWPGytooFITH9Gez3jphzUAnVdOUi1JAaBNJS4WMP2Ns9Ab4Uco5B31Ay-DKz~iRczUhE3-aposC-H9DxmNjJY3G1ewN1e7bYjSGnwXSS2wGfTLKVJZQ4hu2On754cLweSsHG-Q99usSDZ9UQebwDR4knPwYlzUr-Pekb2ZFIyTfgaOLdtde9iZXb3SGVxUiKu1o-LR80v-rFEeWV6Xd2Uj0Hf50u~h6QPX~JKCrU4~eojdbzQqgML23VN0FuhLVl~g72vnEKUo~eQn7KK99VDNL7ppnLknv8hyEt9bK7rwcJ5NXqB8n134gZm597pUepBTXPc4aKSd94Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+                    "categoria": "Star Wars",
+                    "id": ""
+                },
+                {
+                    "nombre": "Producto GHI",
+                    "precio": "$60,00",
+                    "url": "https://s3-alpha-sig.figma.com/img/42e5/511d/c4cea6462e083470202684c700aa5a07?Expires=1693180800&Signature=COcH1lKHQwMF8TfJ1D8uzaPb0Bs6YP4E7PFVt9cJz-9KBZM5pFWl3LWOTAvgbtBwi7JkBIKAiQASJUpYfncy95Ysu-QNqboSqzBCGTusLJv7mDFfCXTmIYj0MiNAh5XuVlPhLMiC9Wvq4hS~sYMG69eUTYOXNXwfwWtMLOpql-Aex8miEezNl2huWPWVg-HgF~YQyfRQA9DO5OJZMz3UCLbmOpqRPBR-JPxKnhGSy12o~is7L54dx2zpK1kvX3MOT9gVpA-M2YpO4D6Z2Tkn7C2S-aoIP4s2OK8svWERYdN0tw80YQLnBX7-N5lIWcsSix2Vp~eZu7mo4Y9Jw3B3JA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+                    "categoria": "Star Wars",
+                    "id": ""
+                },
+                {
+                    "nombre": "Producto JKL",
+                    "precio": "$60,00",
+                    "url": "https://s3-alpha-sig.figma.com/img/661c/f689/2af26846110fb131c9617e7af1a8d724?Expires=1693180800&Signature=OGBd4dd0~0YCJnyveewiyZtWVQoR9frf6X6HnW6XjRseRUu0qcAZfMsVt-5uH1KppTqVsz5KcqOezv-8jbl237EdfEQlURSh-gNTfq9-BkJXOzCxJ74H3VC9FXrqG8B7ny1xvXukhqrM~HPdigLB1pDwpGpCxoOrD2NN3QfMY2MbQxT8ievpjlkrL1rijDQ2xAybLgz7ekQl2zm9hnIp8tGwUOHW5PEfBg-bv3EMlg1U-3el8g1x8Wcxndemep~xP75EzW-J5Y-ZHuzELbhinjtDHC~eSaD36V-ZgjbdMlAlgSchsoBSk8sMCWNSMttAiuiNoPsxYmt4qW88swoErw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+                    "categoria": "Star Wars",
+                    "id": ""
+                },
+                {
+                    "nombre": "Producto MNÑ",
+                    "precio": "$60,00",
+                    "url": "https://s3-alpha-sig.figma.com/img/fefb/73c8/2b6531c3fd26bbe8299385f559b4306c?Expires=1693180800&Signature=JtvQxYkMRje6Se83Edx53LvnHe51IGSJoR2bC-fDVArs7vFd48Ros2Zi0lutYpK~1-5ydIQ7eeiNCngQlnawIAyG71-3c1IfeFEznO2hDyFsCO374ZiERZLQbX3qy~L~OP0pbtCM6e2EupMAerneLc9r50HEPhoGpzC8oOiDstjlv9wDa4F8Rf~Kto8j8SUT0qjMBwJlW22pkwNsalIKgJutpSyNheHwBBE5CwiUMgjPgSTgWLkds-ieEFHt-b5XZTSSR93mm5OvSQygjZ4Js46wbRou~gc3y2D4lh7yTpWEwWAUz2Qfx8yfZqHnvEEtP22m1HWBppbx0emzXI5Sww__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+                    "categoria": "Star Wars",
+                    "id": ""
+                },
+                {
+                    "nombre": "Producto OPQ",
+                    "precio": "$60,00",
+                    "url": "https://s3-alpha-sig.figma.com/img/5b94/5911/f59c8fc93dd4c73cda3d0cb7a0c758a8?Expires=1693180800&Signature=RmEgu~2CxfM05qRZPfZ~nnUKd1TS5JbgLPSq8PMTlhSV1oSbznt-BljvC58K5uJqEcg50Gj3w2DkVBXZ6ShKKh-uq6OJuthZDdXfdr1rHcKs7U2z3cQN-TKoODLcM8oPhKC2CMJxWRc5wh~Wf2sfDC~pGXxfgjmOlKVY4wmld7oK3XQSKwTFzfSqiS-BuNbCVEbId6KwcJtVpon27DAKetR4lJCi8lyESCulNJX3nKMMSFsVHhjQ5UxM4Sxue86WFaAG86bhHuSJLcPzMBCP4uBFdvnnPRM4A6zunnG5wXK7OQZwRivdjnjgwZDZMXEjZSsOBOJ5MAuUE2lclNb-oQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+                    "categoria": "Star Wars",
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "nombre":"Consolas",
+            "id":"",
+            "productos":[
+                {
+                    "nombre": "Producto ABC",
+                    "precio": "$60,00",
+                    "url": "https://s3-alpha-sig.figma.com/img/1e72/1227/31dc07f0bd170bd07820a8ad8c4d6c05?Expires=1693180800&Signature=XOpQct5-qHsvglz1pzsia5DQwu7uHmugoISxI8znWkLBWw5Swku60k6-sUhXh9gaL~5CdX8Ndmc-bziiwK1dxLPcgPsPamfd044TqG1Oq~wXZAPljIzA84MiUjMZZ~IG1o1~gLWkvo1UHCeSlEv3jhJMkGhST~p3zx6e0mUpvSRJllvSje9D5RT4AbemDVKfI2~iJ-s5joL2JYIJeZLcQexu0HNQAXRcmaWTk3c58dm9pxtQMdG6bhkFTQdDQofUCYLehMCtFmjV1miXD5XOiduFOBBxzlFgwihW6NjYmMF8qoObhmrLETd-0AVqKoo2whyEOrppq9SZE4q~oARljQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+                    "categoria": "Consolas",
+                    "id": ""
+                },
+                {
+                    "nombre": "Producto DEF",
+                    "precio": "$60,00",
+                    "url": "https://s3-alpha-sig.figma.com/img/cc7d/474f/a4eddf64c90f448cb65a46f215b8c95f?Expires=1692576000&Signature=W1~RAGzrBJripoBgU2VIu-KhQQG~8nSFkNIbawMYXfaH7R95Sk-0XdCIEQ55MZLioDIaKmUct8wpxcHdR9EQvsS~o4oXpIdTX7eLxH-9FsdtKd5Yy1bsAcNkQ0i6qX-vI1IdlNNWXNWRcygsOEzCAgijVGuRN915hN21mCQHk2YCZZ-~ePnBJY9Ukb5WU8PCiwjDxMLMqza5NBjYkUMG0KQUn3btUdRyjp4ohFsmqwYSUaRdPldvpdfaL9nhb~65ybfBoqI8jM3UPFHDEguHHejv5jeRUXsLa1JwgKRsaELbt2Msb-TZ3D38luhdT9VfJcjZ5uyMYyWnTQ6rCzpn9g__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+                    "categoria": "Consolas",
+                    "id": ""
+                },
+                {
+                    "nombre": "Producto GHI",
+                    "precio": "$60,00",
+                    "url": "https://s3-alpha-sig.figma.com/img/b61c/d345/6cb0da71b58dd125552190b5838f5637?Expires=1693180800&Signature=njlzko8qSO~ABpjryX5vSHdN6ksdC1FRrvFkMmPHLidB-PGOxDWxFifF~SS7QWF4uByteuyhlZ7KdcPso7uOdxvwknOhbrTo8Z4UywxvAnX8Oj-T6Wws4aLfgid4Q32Ol4z2N-zvkIcnfG9S3oawucRh~GFayqmUs0gbjIyflem-ccUBmjI00mPsHbEOcaBK0N98AKjNHtWWitsptOtv7jUv2m0sVfSzxYQ6Xo7tvH7yaVRuMU7GRAb6aiaaNUrgOGd081GO4FAGKOQqjCP8k3L65BV5jjUwPe8ZNze4YoC6-crjufSKdlv2orLvW-x~MO9sASzAkCxlqugp1q0VXg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+                    "categoria": "Consolas",
+                    "id": ""
+                },
+                {
+                    "nombre": "Producto JKL",
+                    "precio": "$60,00",
+                    "url": "https://s3-alpha-sig.figma.com/img/f067/8e21/a7b1853365912e7aa9705a7b2821e696?Expires=1693180800&Signature=jn3-PaTMu7PX~mbOnuuM3W6iG~jD0XdmNTzr6ykndRp8~Lxp2wVMFq3x7UV1qNM7yTdeNBNUiD9~occLmGnyCOS2Pi8G5z9oPDHL~mLpLxLUCpaPs0MYWeJZQ8-OiOijrdLMpJNpywxpHGsy0X02uPff7E5uLUlcbGxIkmg~kKHnVm6CMyRD45lUKI3mRL~-51fNdncuzXcAxOk5o9EDe1TGuEPbtwE3oydEmInq7Up2ZUZilPbHJn8XgfBqCghfBD00Maxuzk7KqdhzEk7LXRaetIOzR~6XaHmAKkWJvDqQRIdFeuLfEF-SIoOCfdGMRS47k561Vl7398mHYnVGig__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+                    "categoria": "Consolas",
+                    "id": ""
+                },
+                {
+                    "nombre": "Producto MNÑ",
+                    "precio": "$60,00",
+                    "url": "https://s3-alpha-sig.figma.com/img/100b/e5cb/f8a0cc589b7af608f23bcd20106f6fa3?Expires=1693180800&Signature=FmMhKRLr2LFhwfhMXgaXpUGfGoRZ~quzRtWQ7-0a84TBWkOPUoIh5wPEWi~gpkvI~m3-WxilDflf6gZDI5aKsJOFijGVTf4HvGup0FvJTqPzyEUdbhRBuspxCP-a8cHxttXo19dmFqjMFjJ67dM6xq-FFVb-3oX~XTJ-mu-YpgjEViLg0TxwATamVvxP4s~icMc1lvVkd0WxcccT0~2SfhieN~BFhVbRs0IZ6tJAPaMr22nSriSfCEwWeF3tmIPI2YoP2ALnv~Ucup8hX8dUq7wzdPIpYB4IVovC6iUp~mPV-LO6RGuJTtH1qtX5RD28EztZzHMUBlLe6fcWPAeWuQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+                    "categoria": "Consolas",
+                    "id": ""
+                },
+                {
+                    "nombre": "Producto OPQ",
+                    "precio": "$60,00",
+                    "url": "https://s3-alpha-sig.figma.com/img/3954/a3d3/e570bc8755e09021b38fc7a3a9840f80?Expires=1693180800&Signature=WOYvCx3yujLFbXJTdtpvx~DwwZxwycdRP0pwROc6bDKjz0SKPMbGqXm5gOq4eXPKft0gHlgeyg1Z8R1fIh3vSd-AhgWeCfiUka2jUcHCdnLlICFSiyYx5YrbvU4WmgGljA1tdhDM~18G7MwicVYpIx48VYEcZj4Frd0VypsKepGBk~rR0uib4byaQb1XuWkgLtQMLjuxfqS57aDeDo8VFmQ0gdxP~fsqRkJF2wGOJs1AUvVh4MgN5j0OfeGmL~XMNm39Ge3qwKVZwvCJluhWFgOvjZz4K2OgXPXp7vS1hh9fHHwKzX~iVtTuNoi4OhGZi1TTGFTAqodts~H~ok2AvA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+                    "categoria": "Consolas",
+                    "id": ""
+                }
+            ]
+        },
+        {
+            "nombre":"Diversos",
+            "id":"",
+            "productos":[
+                {
+                    "nombre": "Producto ABC",
+                    "precio": "$60,00",
+                    "url": "https://s3-alpha-sig.figma.com/img/9480/fb66/90a0dcbd12570f85e3cb01254c7221f5?Expires=1693180800&Signature=X~MMY8hRdwyxgBxPOJ1vCQ0YXWmxG0ZbtlLPDqbvjuSDfbBgmCXgD9jK3Ot-YPDmSAx3qzTeTUP9g0TAI4eoMYq8nob8Em0lVrzNLH8Am62DyJDF4pWndTpBx8Cd2vtwrw0DSOqTH3muwPH1V00B8HhRg1uGh2H16xc3NKXUOlwRBEuQltRT0hfNZHZzv8~D7IsSJf34FVA9V7PWwz9kjTy61uKFU6haV5SO6DGsIyTVDm9GPWXGoYex2xfoxe9Si76LHM9TciSHolFSVhuGn~qPGoC8~Ybjwjkltzgo3JgFg5gh-T9yttk38xVnoqrwQ2-qOBwwHuCPmo6rKzGNew__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+                    "categoria": "Diversos",
+                    "id": ""
+                },
+                {
+                    "nombre": "Producto DEF",
+                    "precio": "$60,00",
+                    "url": "https://s3-alpha-sig.figma.com/img/493d/6142/e62958a50f8950209a4e73f8f281586b?Expires=1693180800&Signature=F6Ese~CyJwB2ItTOXV29p4UqodFLb-nMDZaGZ0VcAOfdirhS3YReW5204rRkbeQMroDc-W28dA7SyYX9RcWUCYLuRsnSqSSyrTsLTEWTJLuTFcsSiV74xQ5fNbgIWLeml8cz6gLrksdWAxE5bkgA-Q5Uko-aewBEyn~fCp0d9QQouDWGJQpuSJatldKcKTwf8oFtKSfV8REdVhFZtPV-JHIhzvJvU3RY45pirUJgHwjOz7RlqlMK7TH5GcRIHmqB4X7sOwt9oxNdoYBM2A7SZrilFGVSVslZ0Whd7R4bEDbfsmM9bvGE6oLfH0sp7DgQK6gBLZ5MDwX9CNjzy-aK2Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+                    "categoria": "Diversos",
+                    "id": ""
+                },
+                {
+                    "nombre": "Producto GHI",
+                    "precio": "$60,00",
+                    "url": "https://s3-alpha-sig.figma.com/img/ead5/4f1a/2e68ded1f8a4b87f715a5698d23e78bd?Expires=1693180800&Signature=ZytldSUxrxQLFj7QNt9QQxtH1mtH3gtNYL6gmG1sw8h0iOj7QZ~yxe29fhwGNIMcvejh6yb97EEUCR6uQMxIbP8MmX7hOD-gVXHh~6H2kWm-E2wZyz9DxpgNJzhemoTLQ1WuRs-bS1IN4xs0FTift2NaLXJ6l6ePQemFO6dUmDxyWN1488Bgmm2PE2gQC4R2p3bDhrlQuGGv65P6u2Jm4ICN5vhZcsrAOJjaHopr7iJwRrOUoyB21q8JkF~bmfH1dzNXE7cnQiJH7268MB-6UmAiYTBrl2UrctK3l1w~7W8F20gyDIGFGylwD2Z7dJbO4TnR5kBWK6gFmsOZckvBjA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+                    "categoria": "Diversos",
+                    "id": ""
+                },
+                {
+                    "nombre": "Producto JKL",
+                    "precio": "$60,00",
+                    "url": "https://s3-alpha-sig.figma.com/img/8407/a102/3dbd2090c50fb3e36c54947c985f1820?Expires=1693180800&Signature=bUB9-fXymFgEINv4vKxYMDk-t3HFCAYdadkwrT~p8RS1uKQ2zAQMWTfrmRx2tTIVSPZyCJ93lhlIeCf9QgpiVYpJRDF76Gulq7aMF0eLUmOLznLjy77K50xA227EsVYyHHaIcG09orC~k6DAe5Hj~IGWHoz6RBob-rU0tiPX6LcFP8ZBydf4uoxSIJTH1gi3vndh99ULWjFmCL1zLhiEDSkj3XjjVAiGp18mIRI3tnHT4M3EmX6QMAKV~yJmEateRylzCTjZfwXkMZ0JdqGrY4mDsOxiETz8w17F5P8wtVsdVE-eeLPtWxh2onRdhSShH-BbdSEdd8xuPu-3T6rxRA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+                    "categoria": "Diversos",
+                    "id": ""
+                },
+                {
+                    "nombre": "Producto MNÑ",
+                    "precio": "$60,00",
+                    "url": "https://s3-alpha-sig.figma.com/img/235b/6bc7/daa13645ac1c7ceed6a220f0929fc13b?Expires=1693180800&Signature=OREN6f~EHjZOYzP~-9xb-9PqAP4qrAahyw3ATPkVxgfFPfNgXhAwHId5UaCJ7ObinGMNBZW5XBM1m9Zl5FWAhyR3pYwttqoJNYMNpA3pfU1uv4gSFRVme2bo77~gudlmAnod6pFzvPC8Qh7QBi13s4V5EEbV1D25Ocpu32UXiSuuIDRPMaIruQpMPvvIMFKSy3gMuNuxhw95WaNzXXC6OwBrZBiCfgadb-Rh5Sx9hH-~frGCHklJddNlNyMHUVxSk3xAbz3EYG~qy--h-kiEVsFgZLnuE2PWVmLCPxOsyHUz99g6VJXSRWYRGEIDnUmsV9akvUlVzZobWmGThcjoNQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+                    "categoria": "Diversos",
+                    "id": ""
+                },
+                {
+                    "nombre": "Producto OPQ",
+                    "precio": "$60,00",
+                    "url": "https://s3-alpha-sig.figma.com/img/d7ea/7cc6/aecdbd47699e06f6134380744d43394f?Expires=1693180800&Signature=e~36EcLCILRiDwzUoN2IX2vJw-wjEmNA1OYw5rLkt~jR0o167~O1phq1vzDN9madIIJXe4mg~9SlKiAOBCLX-NSEJuPS3GhTujOhat3LlW54D5lx6hlCPp01Qcve61NP-hDmzwVD1DPYqZcPolRL~Xg1erEjQDrj9hO~V1-ePDfLYdUGKIEoMX8pP8B-CrA2sDR8fuTk5j9SXyozM5MBPkjWJP9Uv7pZghqbxmx4ByF~diIY2mGlUwjZfRqLjg3ODf20tqL1mz6fCiBQr5HWw0C1obLN2Wm~Le8SnSzesobICNmyMK1NiONsrQCLCT5eZEUDgnCuyE468ljwzMDgyQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+                    "categoria": "Diversos",
+                    "id": ""
+                }
+            ]
+        }
+    ] 
+}

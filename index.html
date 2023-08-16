@@ -31,107 +31,10 @@
         <div class="banner-div">
           <h2 class="banner-title">Febrero Promocional</h2>
           <p class="banner-info">Productos selecionados con 33% de descuento</p>
-          <a href="#" class="btn btn-blue link">Ver consola</a>
+          <a href="#consolas" class="btn btn-blue link">Ver consola</a>
         </div>
       </section>
-      <section class="product-gallery">
-        <div class="product-gallery-div">
-          <div class="gallery-title-div">
-            <h3 class="gallery-title">Star Wars</h3>
-            <a href="" class="link">Ver todo</a>
-          </div>
-          <div class="card-container">
-            <div class="card">
-              <div class="img-div"></div>
-              <p class="product-name">Producto XYZ</p>
-              <p class="product-value">$60,00</p>
-              <a href="" class="link">Ver producto</a>
-            </div>
-            <div class="card">
-              <div class="img-div"></div>
-              <p class="product-name">Producto XYZ</p>
-              <p class="product-value">$60,00</p>
-              <a href="" class="link">Ver producto</a>
-            </div>
-            <div class="card">
-              <div class="img-div"></div>
-              <p class="product-name">Producto XYZ</p>
-              <p class="product-value">$60,00</p>
-              <a href="" class="link">Ver producto</a>
-            </div>
-            <div class="card">
-              <div class="img-div"></div>
-              <p class="product-name">Producto XYZ</p>
-              <p class="product-value">$60,00</p>
-              <a href="" class="link">Ver producto</a>
-            </div>
-          </div>
-        </div>
-        <div class="product-gallery-div">
-          <div class="gallery-title-div">
-            <h3 class="gallery-title">Consolas</h3>
-            <a href="" class="link">Ver todo</a>
-          </div>
-          <div class="card-container">
-            <div class="card">
-              <div class="img-div"></div>
-              <p class="product-name">Producto XYZ</p>
-              <p class="product-value">$60,00</p>
-              <a href="" class="link">Ver producto</a>
-            </div>
-            <div class="card">
-              <div class="img-div"></div>
-              <p class="product-name">Producto XYZ</p>
-              <p class="product-value">$60,00</p>
-              <a href="" class="link">Ver producto</a>
-            </div>
-            <div class="card">
-              <div class="img-div"></div>
-              <p class="product-name">Producto XYZ</p>
-              <p class="product-value">$60,00</p>
-              <a href="" class="link">Ver producto</a>
-            </div>
-            <div class="card">
-              <div class="img-div"></div>
-              <p class="product-name">Producto XYZ</p>
-              <p class="product-value">$60,00</p>
-              <a href="" class="link">Ver producto</a>
-            </div>
-          </div>
-        </div>
-        <div class="product-gallery-div">
-          <div class="gallery-title-div">
-            <h3 class="gallery-title">Diversos</h3>
-            <a href="" class="link">Ver todo</a>
-          </div>
-          <div class="card-container">
-            <div class="card">
-              <div class="img-div"></div>
-              <p class="product-name">Producto XYZ</p>
-              <p class="product-value">$60,00</p>
-              <a href="" class="link">Ver producto</a>
-            </div>
-            <div class="card">
-              <div class="img-div"></div>
-              <p class="product-name">Producto XYZ</p>
-              <p class="product-value">$60,00</p>
-              <a href="" class="link">Ver producto</a>
-            </div>
-            <div class="card">
-              <div class="img-div"></div>
-              <p class="product-name">Producto XYZ</p>
-              <p class="product-value">$60,00</p>
-              <a href="" class="link">Ver producto</a>
-            </div>
-            <div class="card">
-              <div class="img-div"></div>
-              <p class="product-name">Producto XYZ</p>
-              <p class="product-value">$60,00</p>
-              <a href="" class="link">Ver producto</a>
-            </div>
-          </div>
-        </div>
-      </section>
+      <section class="product-gallery"></section>
     </main>
     <footer>
       <section class="footer">
@@ -164,19 +67,25 @@
                 name="name"
                 class="input"
                 placeholder="Nombre"
+                data-type="nombre"
+                maxlength="40"
+                required
               />
-              <label for="name" class="label">Nombre</label>
+              <label for="name" class="label" data-label="nombre">Nombre</label>
             </div>
             <div class="form-div">
               <textarea
                 cols="30"
-                rows="3"
+                rows="4"
                 type="text"
                 name="text"
                 class="input"
                 placeholder="Escribe tu mensaje"
+                data-type="mensaje"
+                maxlength="120"
+                required
               ></textarea>
-              <label for="text" class="label">Escribe tu mensaje</label>
+              <label for="text" class="label" data-label="mensaje">Escribe tu mensaje</label>
             </div>
             <button type="submit" class="btn btn-blue fot-btn">
               Enviar mensaje
@@ -189,5 +98,7 @@
         <p class="dev-info-p">2023</p>
       </section>
     </footer>
+    <script type="module" src="./script/gallery-images.js"></script>
+    <script src="./script/form-validation.js"></script>
   </body>
 </html>

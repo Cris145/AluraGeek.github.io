@@ -31,19 +31,23 @@
               <input
                 type="text"
                 name="name"
+                data-type="email"
                 class="input login-input"
-                placeholder="Nombre"
+                placeholder="Escriba su correo electrónico"
+                required
+                pattern="^[^@]+@[^@]+\.[a-zA-Z]{2,}$"
               />
-              <label for="name" class="label">Nombre</label>
+              <label for="name" class="label"data-label="email">Escriba su correo electrónico</label>
             </div>
             <div class="form-div">
               <input
                 type="text"
                 name="name"
+                data-type="contraseña"
                 class="input login-input"
-                placeholder="Nombre"
+                placeholder="Escriba su contraseña"
               />
-              <label for="name" class="label">Nombre</label>
+              <label for="name" class="label" data-label="contraseña">Escriba su contraseña</label>
             </div>
             <button class="btn btn-blue login-form-btn">Entrar</button>
         </form>
@@ -79,19 +83,25 @@
                   name="name"
                   class="input"
                   placeholder="Nombre"
+                  data-type="nombre"
+                  maxlength="40"
+                  required
                 />
-                <label for="name" class="label">Nombre</label>
+                <label for="name" class="label" data-label="nombre">Nombre</label>
               </div>
               <div class="form-div">
                 <textarea
                   cols="30"
-                  rows="3"
+                  rows="4"
                   type="text"
                   name="text"
                   class="input"
                   placeholder="Escribe tu mensaje"
+                  data-type="mensaje"
+                  maxlength="120"
+                  required
                 ></textarea>
-                <label for="text" class="label">Escribe tu mensaje</label>
+                <label for="text" class="label" data-label="mensaje">Escribe tu mensaje</label>
               </div>
               <button type="submit" class="btn btn-blue fot-btn">
                 Enviar mensaje
@@ -104,5 +114,6 @@
           <p class="dev-info-p">2023</p>
         </section>
       </footer>
+      <script src="../script/form-validation.js"></script>
 </body>
 </html>
